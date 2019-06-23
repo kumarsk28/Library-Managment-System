@@ -1,0 +1,231 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+
+/*-------------------------MAIN CSS ---------------------------*/
+
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:15px;
+	line-height:1.5;
+}
+
+
+.wrapper{
+	height:660px;
+	width:1350px;
+	/*background-color:red; */
+}
+
+header{
+	height:130px;
+	width:1364px;
+	background-color:black;
+	border-bottom:#e8491d 3px solid;
+}
+
+.logo{
+	float:left;
+	padding-left:20px;
+	padding-top:10px;
+}
+
+.logo img{
+	padding-left:50px;
+}
+
+.logo h1{
+	padding-left:41px;
+}
+
+section{
+	height:550px;
+	width:1364px;
+	background-color:grey;
+}
+
+footer{
+	height:82px;
+	width:1364px;
+	background-color:black;
+	border-top:#e8491d 3px solid;
+}
+
+li a{
+	color:#cccccc;
+	text-decoration:none;
+}
+/*nav{
+	float:right;
+	word-spacing:30px ;
+	padding:30px;
+}
+nav li{
+	display: inline-block;
+	line-height:80px;
+}
+
+a:hover{
+	color:#ff69b4;
+	font-weight:bold;
+}
+
+.current a{
+	color:#e8491d;
+	font-weight:bold;
+}*/
+
+
+section .sec_img{
+	margin-top:0px;
+	height:550px;
+	background-image:url("images/2.jpg");
+}
+
+/*----------------------------Carousal------------------------------*/
+
+
+
+/*-----------------------------Student-login-------------------------*/
+.log_img{
+	margin-top:0px;
+	height:550px;
+	background-image:url("images/3.jpg");
+}
+
+.box1{
+	height:350px;
+	width:450px;
+	background-color:black;
+	margin: 70px auto;
+	opacity: .7;
+	color: white;
+	padding:20px;
+}
+
+form .login{
+	margin: auto 70px;
+}
+
+input{
+	height:25px;
+	width:300px;
+}
+
+
+
+/*-----------------------------Registration------------------------------*/
+
+.reg_img{
+	margin-top:0px;
+	height:550px;
+	background-image:url("images/4.jpg");
+}
+
+.box2{
+	height:525px;
+	width:410px;
+	background-color:black;
+	margin: 0px auto;
+	opacity: .7;
+	color: white;
+	padding:20px;
+}
+
+form .Registration{
+	margin: auto 50px;
+}
+
